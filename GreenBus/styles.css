@@ -1,0 +1,91 @@
+.body{
+    background-color: green;
+}#first_pakistan_heding{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    background-color: green;
+}#start_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 20px;
+    width: 50%;
+}.verify_user{
+    display: block;
+    align-items: center;
+    margin-bottom: 20px;
+    border-color: white;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: green;
+}.input_name{
+    color: white;
+    font-size: larger;
+}::placeholder{
+    color: white;
+    font-weight: lighter;
+}.tiket_headi{
+    color: whitesmoke;
+    font-size: xx-large;
+    font-weight: bold;
+}#ticket_button{
+    padding: 15px 38px;
+    color: white;
+   background-color:  green;
+    border-radius: 20px;
+    border-color: white;
+    cursor: pointer;
+    margin-top: 40px;
+}select{
+    color: white;
+    border-color: white;
+    display: block;
+    padding: 15px 44px;
+    border-radius: 20px;
+    background-color: green;
+}option{
+    font-size: large;
+}#min{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   background-color: aqua;
+   width: 200px;
+}.last{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}.userName{
+    color: green;
+    background-color: white;
+    width: 340px;
+    margin: 0 auto;
+    padding: 15px;
+}.cardColor{
+    background-color: green;
+    padding: 20px;
+    font-size: larger;
+    font-weight: bold;
+}#name{
+    margin-left: 80px;
+    text-decoration:double underline;
+}#seatNum{
+    margin-left: 21px;
+    text-decoration: double underline;
+}#phoneNum{
+    margin-left: 9px;
+    text-decoration: double underline;
+}#userAg{
+    margin-left: 94px;
+    text-decoration: double underline;
+}#cen{
+    background-color: white;
+    width: 340px;
+    margin: 0 auto;
+    padding: 10px;
+}

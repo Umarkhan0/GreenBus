@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Bus in pakistan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body class="body">
+    <section id="main">
+        <p id="first_pakistan_heding">Well come to Pakistan Green Bus </p>
+        <img id="start_img" src="Green-Line-Buses-in-Karachi-720x430.jpg"  class="img-fluid"alt="">
+    </section>
+    <center>
+    <section id="verify">
+        <form action="" method="get">
+        <p class="tiket_headi">Tiket form</p>
+        <p class="input_name">Name</p>
+<input id="userName" class="verify_user" placeholder="Enter your Name" type="text" maxlength="13">
+        <p class="input_name" >Age</p>
+<input id="userAge" class="verify_user" placeholder="Enter your Age"  type="number" >
+        <p class="input_name">Number</p>
+        <input id="phoneNumber" class="verify_user"  type="number" placeholder="Number" required="required" maxlength="12">
+        <p class="input_name">Seat selection</p>
+        <select name="dropdown" required id="dropOption">
+            <option value="01">Seat no 01</option>
+            <option value="02">Seat no 02</option>
+            <option value="03">Seat no 03</option>
+            <option value="04">Seat no 04</option>
+            <option value="05">Seat no 05</option>
+            <option value="06">Seat no 06</option>
+            <option value="07">Seat no 07</option>
+            <option value="08">Seat no 08</option>
+            <option value="09">Seat no 09</option>
+            <option value="10">Seat no 10</option>
+            <option value="11">Seat no 11</option>
+            <option value="12">Seat no 12</option>
+            <option value="13">Seat no 13</option>
+            <option value="14">Seat no 14</option>
+            <option value="15">Seat no 15</option>
+            <option value="16">Seat no 16</option>
+            <option value="17">Seat no 17</option>
+            <option value="18">Seat no 18</option>
+            <option value="19">Seat no 19</option>
+            <option value="20">Seat no 20</option>
+
+
+        </select>
+        </form>
+        <button id="ticket_button" onclick="regesterd()">
+            Tiket
+        </button>
+        
+    </section>
+        <p id="print"></p></center>
+        <div id="cardContainer"></div>
+        <div id="qrcode"></div>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode-generator/qrcode.min.js"></script>
+    <script src="app.js"></script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
